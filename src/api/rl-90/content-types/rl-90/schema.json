@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rl_90s",
+  "info": {
+    "singularName": "rl-90",
+    "pluralName": "rl-90s",
+    "displayName": "RL90"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

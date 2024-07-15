@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_features_blocks",
+  "info": {
+    "displayName": "blocks",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "fields": {
+      "type": "text"
+    }
+  }
+}

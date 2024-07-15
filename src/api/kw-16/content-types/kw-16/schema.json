@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kw_16s",
+  "info": {
+    "singularName": "kw-16",
+    "pluralName": "kw-16s",
+    "displayName": "KW-16",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "title": {
+      "type": "string"
+    },
+    "versao": {
+      "type": "integer"
+    },
+    "production": {
+      "type": "boolean"
+    },
+    "enviroment": {
+      "type": "enumeration",
+      "enum": [
+        "Prod",
+        "Stg"
+      ]
+    }
+  }
+}

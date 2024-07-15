@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "st_12s",
+  "info": {
+    "singularName": "st-12",
+    "pluralName": "st-12s",
+    "displayName": "ST12"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}
